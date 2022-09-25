@@ -1,0 +1,41 @@
+.main-area {
+    margin: 0 auto;
+    width: 600px;
+    overflow: hidden;
+}
+.img-main {
+    position: relative;
+    z-index: 1;
+}
+.image-area {
+    width: 600px;
+}
+.img-parent {
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.img-child {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    float: left;
+}
+.img_nav {
+    position: absolute;
+}
+.img_nav:hover {
+    cursor: pointer;
+}
+.img-prev {
+    left: 20px;
+}
+.img-next {
+    right: 20px;
+}
+
+
