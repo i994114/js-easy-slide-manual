@@ -4,18 +4,15 @@
         <meta charset="UTF-8">
         <title>Easy slide manual</title>
         <link rel="stylesheet" href="style.css"> 
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-                integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-                crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/02701bf414.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <h1>Easy slide manual</h1>
+            <button class="header-button js-header-button">隠す</button>
         </header>
         <div class="main-area">
             <div class="img-main">
-                <i class="fa-solid fa-arrow-left img_nav img-prev js-img-prev"></i>
+                <i class="fa-solid fa-arrow-left img_nav img-prev js-img-prev"></i>        
                 <i class="fa-solid fa-arrow-right img_nav img-next js-img-next"></i>
             </div>
             <div class="img-area">
@@ -29,7 +26,17 @@
             <div class="msg-area js-msg">
                 <p> --- </p>
             </div>
+            <div class="modal js-modal">
+                <h2>ただいま勉強中</h2>
+                <button class="btn-close js-btn-close">閉じる</button>
+            </div>
         </div>
+        <div class="cover js-show-modal-cover"></div>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/02701bf414.js" crossorigin="anonymous"></script>
+
         <script src="app.js"></script>
     </body>
 

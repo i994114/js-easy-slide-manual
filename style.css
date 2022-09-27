@@ -1,11 +1,32 @@
+body {
+    position: relative;
+    margin: 0;
+}
+header {
+    position: relative;
+}
+header h1 {
+    display: inline-block;
+}
+header button {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    padding: 5px 10px;
+}
+header button:hover {
+    cursor: pointer;
+}
 .main-area {
     margin: 0 auto;
     width: 600px;
     overflow: hidden;
+    position: relative;
 }
 .img-main {
     position: relative;
-    z-index: 1;
 }
 .image-area {
     width: 600px;
@@ -37,5 +58,59 @@
 .img-next {
     right: 20px;
 }
+button {
+    display: block;
+    position: relative;
+}
+.button-prev {
+    position:absolute;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+}
+.button-next {
+    position:absolute;
+    right: 20px;
+}
 
+.button-main i{
+    position:absolute;
+    top:50%;
+    left:10px;
+    margin-top:-0.5em;
+    color:#0070be;
+}
+.modal {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    display: none;
 
+}
+.modal h2 {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+.btn-close {
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+.btn-close:hover {
+    cursor: pointer;
+}
+.cover {
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    display: none;
+}
