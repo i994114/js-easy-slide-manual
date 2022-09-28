@@ -27,6 +27,7 @@ header button:hover {
 }
 .img-main {
     position: relative;
+    z-index: 1;
 }
 .image-area {
     width: 600px;
@@ -114,3 +115,4 @@ button {
     box-sizing: border-box;
     display: none;
 }
+
