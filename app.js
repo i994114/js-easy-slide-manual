@@ -47,6 +47,7 @@ var slider = (function() {
         //スライドに対するメッセージを表示
         msgPop: function() {
             var param = [
+                'text0.txt',
                 'text1.txt',
                 'text2.txt',
                 'text3.txt',
